@@ -1,0 +1,6 @@
+/home/william/CLion-2024.3/clion-2024.3/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/william/CLion-2024.3/clion-2024.3/bin/ninja/linux/x64/ninja -G Ninja -S /home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam -B /home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam/cmake-build-debug
+Using OpenFOAM-v2312
+The project is located at /home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam/cmake-build-debug

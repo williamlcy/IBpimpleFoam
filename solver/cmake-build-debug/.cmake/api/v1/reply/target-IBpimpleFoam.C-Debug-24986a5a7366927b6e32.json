@@ -1,0 +1,217 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "IBpimpleFoam.C"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"link_directories",
+			"TARGET_LINK_LIBRARIES",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always   -std=c++14 -m64 -pthread -DOPENFOAM=2312 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -Wno-unknown-pragmas -O3 -DNoRepository -ftemplate-depth-100 -fPIC -DIMPLEMENT_ACTIVATION -execute,-undefined,dynamic_lookup"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/OpenFOAM/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/TurbulenceModels/turbulenceModels/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/OSspecific/POSIX/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/finiteVolume/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/meshTools/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/surfMesh/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/dynamicMesh/lnInclude"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/lib/openfoam/openfoam2312/src/dynamicFvMesh/lnInclude"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "IBpimpleFoam.C::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/lib/dummy",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/lib:/usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/lib/dummy",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lOpenFOAM",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lPstream",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-limmersedBoundary/finiteVolume",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lfvOptions",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lmeshTools",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-ldynamicMesh",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "IBpimpleFoam.C",
+	"nameOnDisk" : "IBpimpleFoam.C",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "IBpimpleFoam.C",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

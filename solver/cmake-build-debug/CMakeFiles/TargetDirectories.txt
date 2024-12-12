@@ -1,0 +1,3 @@
+/home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam/cmake-build-debug/CMakeFiles/IBpimpleFoam.C.dir
+/home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/william/OpenFOAM/william-v2312/20240403_IBM/IB/IBpimpleFoam/cmake-build-debug/CMakeFiles/rebuild_cache.dir
