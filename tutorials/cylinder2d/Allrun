@@ -1,0 +1,21 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # Tutorial run functions
+#------------------------------------------------------------------------------
+# Get application name
+application="IBpimpleFoam"
+\gmsh cylinder.geo -3 -format vtk -o cylinder.vtk 
+#runApplication gmsh ibmcylind_fluid.geo -3 -o ibmcylind_fluid.msh
+#runApplication gmshToFoam ibmcylind_fluid.msh
+
+#runApplication changeDictionary -constant
+runApplication blockMesh
+
+runApplication rm -rf 0
+runApplication cp -r 0.orig 0
+
+#runApplication potentialFoam
+#runApplication writeIbMasks
+#runApplication $application
+runApplication decomposePar
+runParallel $application
